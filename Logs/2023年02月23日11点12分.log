@@ -1,0 +1,30 @@
+2023-02-23 11:12:40,632 - TestBaidu - INFO - 启动浏览器，访问百度首页
+2023-02-23 11:12:41,195 - TestBaidu - INFO - 输入 搜索词
+2023-02-23 11:12:41,266 - TestBaidu - INFO - 单击 百度一下 按钮进行搜索
+2023-02-23 11:12:41,516 - TestBaidu - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="s"]"}
+  (Session info: chrome=110.0.5481.104)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x005A37D3]
+	(No symbol) [0x00538B81]
+	(No symbol) [0x0043B36D]
+	(No symbol) [0x0046D382]
+	(No symbol) [0x0046D4BB]
+	(No symbol) [0x004A3302]
+	(No symbol) [0x0048B464]
+	(No symbol) [0x004A1215]
+	(No symbol) [0x0048B216]
+	(No symbol) [0x00460D97]
+	(No symbol) [0x0046253D]
+	GetHandleVerifier [0x0081ABF2+2510930]
+	GetHandleVerifier [0x00848EC1+2700065]
+	GetHandleVerifier [0x0084C86C+2714828]
+	GetHandleVerifier [0x00653480+645344]
+	(No symbol) [0x00540FD2]
+	(No symbol) [0x00546C68]
+	(No symbol) [0x00546D4B]
+	(No symbol) [0x00550D6B]
+	BaseThreadInitThunk [0x763200F9+25]
+	RtlGetAppContainerNamedObjectPath [0x770D7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x770D7B8E+238]
+
