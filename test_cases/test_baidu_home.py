@@ -47,6 +47,7 @@ class TestSearchPage(unittest.TestCase):
             # self.assertEqual(text,"水分子","导入作品失败")
             self.assertEqual(search_Page.get_title(), assert_title)
             print("hello")
+            print("world")
     @classmethod
     def tearDownClass(self):
         self.driver.quit()
