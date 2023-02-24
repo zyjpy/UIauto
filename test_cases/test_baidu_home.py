@@ -48,6 +48,7 @@ class TestSearchPage(unittest.TestCase):
             self.assertEqual(search_Page.get_title(), assert_title)
             print("hello")
             print("world")
+            print("hahahaha")
     @classmethod
     def tearDownClass(self):
         self.driver.quit()
